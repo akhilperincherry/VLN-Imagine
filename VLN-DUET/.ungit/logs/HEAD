@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 93e8b233164bc079a6db48b8a0a78d123ec8de41 Akhil Perincherry <akhil_nr@hotmail.com> 1728719776 -0700	clone: from https://github.com/cshizhe/VLN-DUET.git
+93e8b233164bc079a6db48b8a0a78d123ec8de41 93e8b233164bc079a6db48b8a0a78d123ec8de41 Akhil Perincherry <akhil_nr@hotmail.com> 1728966281 -0700	checkout: moving from main to baseline-inference
+93e8b233164bc079a6db48b8a0a78d123ec8de41 3e3b4dc214f37cd365c23695839ecce67c065769 Akhil Perincherry <akhil_nr@hotmail.com> 1728966433 -0700	commit: Ran inference on baseline.
+3e3b4dc214f37cd365c23695839ecce67c065769 3e3b4dc214f37cd365c23695839ecce67c065769 Akhil Perincherry <akhil_nr@hotmail.com> 1728966483 -0700	checkout: moving from baseline-inference to aperinch-imagine-lang-cat-cosine-aux
+3e3b4dc214f37cd365c23695839ecce67c065769 da9d5fb7e61a8ea5940b8b55374bbcf2ccfc052b Akhil Perincherry <akhil_nr@hotmail.com> 1729972774 -0700	commit: Integrated working DUET with imaginations.
+da9d5fb7e61a8ea5940b8b55374bbcf2ccfc052b 9ef5541503f676615890ae999bab66cac38fd978 Akhil Perincherry <akhil_nr@hotmail.com> 1730782408 -0800	commit: Ran experiments with OTS, vit-feats, fixed-lang-emb.
+9ef5541503f676615890ae999bab66cac38fd978 f0b0e8cb47bdadeb16568a7263e99bff42b68e0d Akhil Perincherry <akhil_nr@hotmail.com> 1737262517 -0800	commit: Added contrastive loss.
+f0b0e8cb47bdadeb16568a7263e99bff42b68e0d f0b0e8cb47bdadeb16568a7263e99bff42b68e0d Akhil Perincherry <akhil_nr@hotmail.com> 1737262548 -0800	checkout: moving from aperinch-imagine-lang-cat-cosine-aux to aperinch-imagine-reverie-integrate
+f0b0e8cb47bdadeb16568a7263e99bff42b68e0d eb799788730cd9f91f7c8d45422e2b8881dff37d Akhil Perincherry <akhil_nr@hotmail.com> 1737829965 -0800	commit: Integrated and tested REVERIE-DUET.
+eb799788730cd9f91f7c8d45422e2b8881dff37d eb799788730cd9f91f7c8d45422e2b8881dff37d Akhil Perincherry <akhil_nr@hotmail.com> 1737829991 -0800	checkout: moving from aperinch-imagine-reverie-integrate to aperinch-imagine-reverie-LAD-fusion
+eb799788730cd9f91f7c8d45422e2b8881dff37d b3fc0ac1ee9129a43152806aaabe30e2195c1753 Akhil Perincherry <akhil_nr@hotmail.com> 1738017929 -0800	commit: integrated LAD to reverie and R2R.
+b3fc0ac1ee9129a43152806aaabe30e2195c1753 eb799788730cd9f91f7c8d45422e2b8881dff37d Akhil Perincherry <akhil_nr@hotmail.com> 1738017980 -0800	checkout: moving from aperinch-imagine-reverie-LAD-fusion to aperinch-imagine-reverie-integrate
