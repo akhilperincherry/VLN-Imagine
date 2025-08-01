@@ -19,9 +19,9 @@ Vision-and-Language Navigation (VLN) agents are tasked with navigating an unseen
 export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
 ```
 
-1. Setup [VLN-DUET](https://github.com/cshizhe/VLN-DUET) and [VLN-HAMT](https://github.com/cshizhe/VLN-HAMT) using their official instructions.
+2. Setup [VLN-DUET](https://github.com/cshizhe/VLN-DUET) and [VLN-HAMT](https://github.com/cshizhe/VLN-HAMT) using their official instructions.
 
-1. Install requirements:
+3. Install requirements:
 ```setup
 conda create --name vln-imagine python=3.8.5
 conda activate vln-imagine
@@ -34,19 +34,20 @@ cd pytorch-image-models
 git checkout 9cc7dda6e5fcbbc7ac5ba5d2d44050d2a8e3e38d
 ```
 
-1. Download data from [](). Data includes:
+4. Download checkpoints and features from [here](https://oregonstate.box.com/s/97n3i25m45wkrr1ivt3stah2x9cqabv1). Files include:
  - off-the-shelf ViT features for R2R-Imagine.
  - HAMT ViT features for R2R-Imagine.
  - HAMT-Imagine R2R checkpoint.
  - DUET-Imagine R2R checkpoint.
 
-1. Run - adjust paths of downloaded files and run following for training/inference for HAMT and DUET from the respective folders:
+5. (optional) Download imagination generations for R2R from [here-TODO](https://github.com/akhilperincherry/VLN-Imagine) and metadata of generations and noun-phrase segments of R2R instructions from [here](https://oregonstate.box.com/s/97n3i25m45wkrr1ivt3stah2x9cqabv1).
+
+6. Run - adjust paths of downloaded files and run following for training/inference for HAMT and DUET from the respective folders:
 ```
 cd <folder-of-HAMT/DUET src>
 bash scripts/run_r2r.sh
 ```
 
-1. (optional) Download imagination generations for R2R from [here]() and metadata of generations and noun-phrase segments of R2R instructions from [here](https://oregonstate.box.com/s/97n3i25m45wkrr1ivt3stah2x9cqabv1).
 
 ## License
 
