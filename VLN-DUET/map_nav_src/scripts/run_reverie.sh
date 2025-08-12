@@ -1,6 +1,6 @@
 DATA_ROOT=../datasets
 
-IMAGINATION_ROOT_FOLDER=/nfs/hpc/sw/perincha/repos/VLN-DUET/datasets/REVERIE/imagination_experiments
+IMAGINATION_ROOT_FOLDER=imagination_experiments
 
 train_alg=dagger
 
